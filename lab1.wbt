@@ -1,0 +1,31 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.07667166137484754 -0.9951096538239379 -0.06227546233006527 4.914070011789148
+  position 2.332439946528782 0.6267731916936264 0.21748806814779653
+}
+Background {
+  skyColor [
+    1 1 1
+    0 0 0
+    0 0 0
+  ]
+}
+RectangleArena {
+  floorSize 2 2
+}
+E-puck {
+  rotation 0.9972704352680076 0.07212253270580148 0.015811995966965222 0.0003484249374334506
+  controller "lab1_custom"
+}
+SolidBox {
+  translation 0 0.1 0.2
+  size 0.2 0.2 0.2
+}
+SolidBox {
+  translation 0 0.1 -0.2
+  name "box(1)"
+  size 0.2 0.2 0.2
+}
